@@ -1,0 +1,12 @@
+Bonus Task - ROS2 Rover Command Node
+
+For this bonus task, I extended the ROS2 workspace by adding a simple decision-making system for a rover. I created nodes that communicate with each other using topics.
+
+The sensor node publishes random distance values continuously. The decision node subscribes to this data and checks the distance. Based on the value, it decides whether the rover should stop or move forward. It then publishes this command to another topic.
+
+I also created a command listener node which subscribes to the command topic and prints the received command. This helped me understand how multiple nodes can communicate in a chain.
+
+I built the workspace using colcon build and sourced the setup file before running the nodes. Then I ran each node in separate terminals to see the communication working.
+
+This task helped me understand how data flows between nodes in ROS2 and how simple decision-making logic can be implemented using publishers and subscribers.
+To run this, first go to the workspace folder and build it using colcon build. Then source the setup file using source install/setup.bash. After that, run each node in separate terminals using ros2 run distance_demo_bonus sensor_node, ros2 run distance_demo_bonus decision_node, and ros2 run distance_demo_bonus command_listener.
