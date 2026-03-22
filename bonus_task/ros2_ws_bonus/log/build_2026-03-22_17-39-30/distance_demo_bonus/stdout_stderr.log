@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/PKG-INFO
+writing dependency_links to ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/dependency_links.txt
+writing entry points to ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/entry_points.txt
+writing requirements to ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/requires.txt
+writing top-level names to ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/top_level.txt
+reading manifest file '../../build/distance_demo_bonus/distance_demo_bonus.egg-info/SOURCES.txt'
+writing manifest file '../../build/distance_demo_bonus/distance_demo_bonus.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/python3.10/site-packages/distance_demo_bonus-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/distance_demo_bonus/distance_demo_bonus.egg-info to /home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/python3.10/site-packages/distance_demo_bonus-0.0.0-py3.10.egg-info
+running install_scripts
+Installing command_listener script to /home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/distance_demo_bonus
+Installing decision_node script to /home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/distance_demo_bonus
+Installing sensor_node script to /home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/distance_demo_bonus
+writing list of installed files to '/home/ami/ros2_ws_bonus/build/distance_demo_bonus/install.log'

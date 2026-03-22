@@ -1,0 +1,23 @@
+[0.534s] Invoking command in '/home/ami/ros2_ws_bonus/src/distance_demo_bonus': PYTHONPATH=/home/ami/ros2_ws_bonus/build/distance_demo_bonus/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/distance_demo_bonus build --build-base /home/ami/ros2_ws_bonus/build/distance_demo_bonus/build install --record /home/ami/ros2_ws_bonus/build/distance_demo_bonus/install.log --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.729s] writing ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/PKG-INFO
+[0.729s] writing dependency_links to ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/dependency_links.txt
+[0.730s] writing entry points to ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/entry_points.txt
+[0.730s] writing requirements to ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/requires.txt
+[0.730s] writing top-level names to ../../build/distance_demo_bonus/distance_demo_bonus.egg-info/top_level.txt
+[0.732s] reading manifest file '../../build/distance_demo_bonus/distance_demo_bonus.egg-info/SOURCES.txt'
+[0.732s] writing manifest file '../../build/distance_demo_bonus/distance_demo_bonus.egg-info/SOURCES.txt'
+[0.733s] running build
+[0.733s] running build_py
+[0.733s] running install
+[0.733s] running install_lib
+[0.734s] running install_data
+[0.734s] running install_egg_info
+[0.736s] removing '/home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/python3.10/site-packages/distance_demo_bonus-0.0.0-py3.10.egg-info' (and everything under it)
+[0.736s] Copying ../../build/distance_demo_bonus/distance_demo_bonus.egg-info to /home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/python3.10/site-packages/distance_demo_bonus-0.0.0-py3.10.egg-info
+[0.737s] running install_scripts
+[0.757s] Installing command_listener script to /home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/distance_demo_bonus
+[0.758s] Installing decision_node script to /home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/distance_demo_bonus
+[0.758s] Installing sensor_node script to /home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/distance_demo_bonus
+[0.758s] writing list of installed files to '/home/ami/ros2_ws_bonus/build/distance_demo_bonus/install.log'
+[0.794s] Invoked command in '/home/ami/ros2_ws_bonus/src/distance_demo_bonus' returned '0': PYTHONPATH=/home/ami/ros2_ws_bonus/build/distance_demo_bonus/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ami/ros2_ws_bonus/install/distance_demo_bonus/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/distance_demo_bonus build --build-base /home/ami/ros2_ws_bonus/build/distance_demo_bonus/build install --record /home/ami/ros2_ws_bonus/build/distance_demo_bonus/install.log --single-version-externally-managed install_data

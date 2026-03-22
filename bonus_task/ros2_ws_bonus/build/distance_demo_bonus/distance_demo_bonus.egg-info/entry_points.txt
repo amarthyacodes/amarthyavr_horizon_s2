@@ -1,0 +1,5 @@
+[console_scripts]
+command_listener = distance_demo_bonus.command_listener:main
+decision_node = distance_demo_bonus.decision_node:main
+sensor_node = distance_demo_bonus.sensor_node:main
+
