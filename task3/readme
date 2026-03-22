@@ -7,3 +7,5 @@ I used colcon build to make the workspace, and then I ran the setup file so that
 This task helped me learn how packages, workspaces, and nodes in ROS2 work together. I also learned that before running any package, I need to build and source the workspace.
 
 For your reference, I have also included screenshots of the process of installing ROS2 and setting up a dual boot on Ubuntu.
+
+To run this, first go to the workspace folder and build it using colcon build. Then source the setup file using source install/setup.bash. After that, run the nodes in separate terminals using ros2 run distance_demo distance_publisher and ros2 run distance_demo distance_subscriber.
