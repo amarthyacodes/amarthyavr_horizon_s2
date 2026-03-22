@@ -5,23 +5,23 @@ import random
 
 class distancepub(Node):
     def __init__(self):
-        super().__init__('distance_pub')
-        self.pub = self.create_publisher(Int32, 'distance', 10)
-        self.timer = self.create_timer(1.0, self.send_distance)
+        super().__init__('distance_pub') 
+        self.pub = self.create_publisher(Int32, 'distance', 10) # publisher for distance topic
+        self.timer = self.create_timer(1.0, self.send_distance) # runs every 1 sec
 
     def send_distance(self):
-        dist = random.randint(1, 100)
+        dist = random.randint(1, 100) # generate random distance
         msg = Int32()
         msg.data = dist
         self.pub.publish(msg)
-        self.get_logger().info(f'sent distance: {dist}')
+        self.get_logger().info(f'sent distance: {dist}') # print value
 
 def main(args=None):
-    rclpy.init(args=args)
-    node = distancepub()
-    rclpy.spin(node)
+    rclpy.init(args=args) # start ros
+    node = distancepub() # create node
+    rclpy.spin(node) 
     node.destroy_node()
-    rclpy.shutdown()
+    rclpy.shutdown() # stop ros
 
 if __name__ == '__main__':
-    main()
+    main() # run everything
