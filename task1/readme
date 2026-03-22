@@ -1,0 +1,1 @@
+To run this, first compile the file using g++ main.cpp -o output. Then run the program using ./output in the terminal.
